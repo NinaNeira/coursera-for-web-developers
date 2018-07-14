@@ -1,0 +1,95 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 1.75em;
+  font-weight: 700;
+  color: #151D2D;
+  text-align: center;
+}
+
+p {
+  color: #FFFFFF;
+}
+
+.mainDiv {
+  width: 100%;
+  margin-top: 60px;
+  box-sizing: border-box;
+}
+
+.insideDiv {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #151D2D;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.title {
+  font-size: 1.25em;
+  font-weight: 700;
+  text-align: center;
+  width: 100px;
+  margin: 0;
+  padding: 10px;
+  border-left: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#titleOne {
+  background-color: #F00000;
+  color: #FFFFFF;
+}
+
+#titleTwo {
+  background-color: #F1F2F3;
+  color: #F00000;
+}
+
+#titleThree {
+  background-color: #363E4B;
+  color: #FFFFFF;
+}
+
+.menu {
+  padding: 40px 15px 0px 15px;
+}
+
+@media (min-width: 992px) {
+  .threeColumns {
+    width: 33%;
+    float: left;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .twoColumns {
+    width: 50%;
+    margin-bottom: 35px;
+    float: left;
+  }
+
+  .mdOneColumn {
+    width: 100%;
+    margin-bottom: 35px;
+    float: left;
+  }
+
+  .insideDivOneColumn {
+    width: 95%;
+  }
+}
+
+@media (max-width: 767px) {
+  .oneColumn {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+}
